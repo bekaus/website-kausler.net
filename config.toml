@@ -1,0 +1,62 @@
+## Basic Configuration
+baseURL = "https://kausler.net" 
+languageCode = "en-US"
+
+author = "Bernhard X. Kausler"
+title = "Bernhard X. Kausler"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+#disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+#googleAnalytics = "XYZ"
+enableRobotsTXT = false
+
+## Site Settings
+[params]
+author = "Bernhard <abbr title=\"Xaver\">X.</abbr> Kausler"
+intro = "Bernhard is a data analyst, software engineer,<br/>and AI researcher."
+description = "Born in Bavaria. Majored in Physics. PhD in Machine Learning. Lives in Heidelberg."
+authorimage = "bkausler-headshot-1024.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Personal website of Bernhard X. Kausler"
+keywords = "software engineering, machine learning, AI, data analytics"
+
+## Social Accounts
+[params.social]
+linkedin = "bernhardkausler"
+github = "bekaus"
+#instagram = "<username>"
+#xing = "<username>"
+#twitter = "<username>"
+#facebook = "<username>"
+#google = "<username>"
+stackoverflow = "218681"
+#email = "you@example.com"
+
+## Extras
+[params.extra]
+copyright = "" 
+poweredby = true
+highlightjs = true
+
+## Main Menu
+[[menu.main]]
+# [[menu.main]]
+#     name = "blog"
+#     weight = 100
+#     identifier = "blog"
+#     url = "/blog/"
+# [[menu.main]]
+#     name = "about"
+#     identifier = "about"
+#     weight = 200
+#     url = "/about/"
+# [[menu.main]]
+#     name = "coderag"
+#     identifier = "coderag"
+#     weight = 300
+#     url = "/coderag/"

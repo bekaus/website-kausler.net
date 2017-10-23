@@ -1,0 +1,16 @@
+<footer class="row text-center footer">
+  <hr />
+  {{ with .Site.Params.extra }}
+<h6 class="text-center copyright">© 2017 Bernhard
+    Kausler. <a href="impressum/index.html">Impressum</a>. Licensed under
+    a <a rel="license"
+    href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+    License</a>.</h6>
+  <h6 class="text-center copyright">{{ .copyright | markdownify }}</h6>
+  {{ if ne .poweredby false }}
+  <h6 class="text-center powered">Powered
+  by <a href="https://gohugo.io/">Hugo</a>
+    &amp; <a href="https://github.com/shenoybr/hugo-goa">Goa</a>.</h6>
+  {{ end }}
+  {{ end }}
+</footer>
